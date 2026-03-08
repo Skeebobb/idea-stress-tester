@@ -154,41 +154,49 @@ cd idea-stress-tester
 
 ---
 
-### 2. Backend setup
+### 2. Create Python Virtual Environment
 
-Install dependencies:
+Create a virtual environment:
 
-```bash
-pip install -r requirements.txt
-```
+python -m venv venv
 
-Run FastAPI server:
+Activate the environment.
 
-```bash
-uvicorn app.main:app --reload
-```
+Windows (PowerShell):
 
-API documentation will be available at:
+venv\Scripts\Activate
 
-```text
-http://127.0.0.1:8000/docs
-```
+Mac / Linux:
+
+source venv/bin/activate
 
 ---
 
-### 3. Frontend setup
+### 3. Install dependencies
 
-```bash
+pip install -r requirements.txt
+
+---
+
+### 4. Run the backend
+
+uvicorn app.main:app --reload
+
+API documentation will be available at:
+
+http://127.0.0.1:8000/docs
+
+---
+
+### 5. Frontend setup
+
 cd frontend
 npm install
 npm run dev
-```
 
 Frontend will run at:
 
-```text
 http://localhost:3000
-```
 
 ---
 
@@ -196,41 +204,33 @@ http://localhost:3000
 
 Prepare dataset:
 
-```bash
 python ml/prepare_dataset.py
-```
 
 Train model:
 
-```bash
 python ml/train_model.py
-```
 
 Artifacts will be saved in:
 
-```text
 artifacts/
-```
 
 ---
 
 ## Example Analysis Flow
 
-```text
-User enters idea
-↓
-Frontend sends request to FastAPI
-↓
-ML classifier predicts category
-↓
-Scoring heuristics evaluate idea clarity
-↓
-Similar ideas retrieved via cosine similarity
-↓
-Backend returns structured analysis
-↓
-Frontend displays results dashboard
-```
+User enters idea  
+↓  
+Frontend sends request to FastAPI  
+↓  
+ML classifier predicts category  
+↓  
+Scoring heuristics evaluate idea clarity  
+↓  
+Similar ideas retrieved via cosine similarity  
+↓  
+Backend returns structured analysis  
+↓  
+Frontend displays results dashboard  
 
 ---
 
