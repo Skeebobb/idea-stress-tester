@@ -46,8 +46,8 @@ def main() -> None:
         (
             "clf",
             LogisticRegression(
+                solver="lbfgs",
                 max_iter=3000,
-                multi_class="multinomial",
                 class_weight="balanced"
             )
         )
