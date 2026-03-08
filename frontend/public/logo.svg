@@ -1,0 +1,9 @@
+<svg width="120" height="120" viewBox="0 0 120 120" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="120" height="120" rx="24" fill="#2563EB"></rect>
+  
+  <!-- lightning / idea icon -->
+  <path d="M65 25L40 65H58L52 95L80 50H62L65 25Z" fill="white"></path>
+  
+  <!-- subtle circle -->
+  <circle cx="60" cy="60" r="42" stroke="white" stroke-opacity="0.2" stroke-width="2"></circle>
+</svg>

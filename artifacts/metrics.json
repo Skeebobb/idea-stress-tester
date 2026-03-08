@@ -1,0 +1,136 @@
+{
+  "accuracy": 0.43041237113402064,
+  "macro_f1": 0.4252351419339705,
+  "weighted_f1": 0.4409681336842626,
+  "num_samples": 1938,
+  "num_classes": 19,
+  "classification_report": {
+    "API": {
+      "precision": 0.4117647058823529,
+      "recall": 0.5,
+      "f1-score": 0.45161290322580644,
+      "support": 14.0
+    },
+    "Analytics": {
+      "precision": 0.34782608695652173,
+      "recall": 0.5333333333333333,
+      "f1-score": 0.42105263157894735,
+      "support": 15.0
+    },
+    "Android": {
+      "precision": 0.30434782608695654,
+      "recall": 0.23333333333333334,
+      "f1-score": 0.2641509433962264,
+      "support": 30.0
+    },
+    "Artificial Intelligence": {
+      "precision": 0.25,
+      "recall": 0.5416666666666666,
+      "f1-score": 0.34210526315789475,
+      "support": 24.0
+    },
+    "Chrome Extensions": {
+      "precision": 0.75,
+      "recall": 0.375,
+      "f1-score": 0.5,
+      "support": 32.0
+    },
+    "Design Tools": {
+      "precision": 0.72,
+      "recall": 0.46153846153846156,
+      "f1-score": 0.5625,
+      "support": 78.0
+    },
+    "Developer Tools": {
+      "precision": 0.19047619047619047,
+      "recall": 0.2,
+      "f1-score": 0.1951219512195122,
+      "support": 20.0
+    },
+    "Education": {
+      "precision": 0.38461538461538464,
+      "recall": 0.45454545454545453,
+      "f1-score": 0.4166666666666667,
+      "support": 11.0
+    },
+    "Email": {
+      "precision": 0.7,
+      "recall": 0.5833333333333334,
+      "f1-score": 0.6363636363636364,
+      "support": 12.0
+    },
+    "Fintech": {
+      "precision": 0.5,
+      "recall": 0.5263157894736842,
+      "f1-score": 0.5128205128205128,
+      "support": 19.0
+    },
+    "Health & Fitness": {
+      "precision": 0.6363636363636364,
+      "recall": 0.5,
+      "f1-score": 0.56,
+      "support": 14.0
+    },
+    "Hiring": {
+      "precision": 0.8461538461538461,
+      "recall": 0.7857142857142857,
+      "f1-score": 0.8148148148148148,
+      "support": 14.0
+    },
+    "Marketing": {
+      "precision": 0.4230769230769231,
+      "recall": 0.34375,
+      "f1-score": 0.3793103448275862,
+      "support": 32.0
+    },
+    "Open Source": {
+      "precision": 0.47058823529411764,
+      "recall": 0.5714285714285714,
+      "f1-score": 0.5161290322580645,
+      "support": 14.0
+    },
+    "Sales": {
+      "precision": 0.3333333333333333,
+      "recall": 0.2727272727272727,
+      "f1-score": 0.3,
+      "support": 11.0
+    },
+    "Social Media": {
+      "precision": 0.21428571428571427,
+      "recall": 0.23076923076923078,
+      "f1-score": 0.2222222222222222,
+      "support": 13.0
+    },
+    "User Experience": {
+      "precision": 0.13333333333333333,
+      "recall": 0.2,
+      "f1-score": 0.16,
+      "support": 10.0
+    },
+    "Writing": {
+      "precision": 0.3181818181818182,
+      "recall": 0.7,
+      "f1-score": 0.4375,
+      "support": 10.0
+    },
+    "iOS": {
+      "precision": 0.375,
+      "recall": 0.4,
+      "f1-score": 0.3870967741935484,
+      "support": 15.0
+    },
+    "accuracy": 0.43041237113402064,
+    "macro avg": {
+      "precision": 0.4373340544231647,
+      "recall": 0.4428134596244015,
+      "f1-score": 0.4252351419339705,
+      "support": 388.0
+    },
+    "weighted avg": {
+      "precision": 0.4888847914045333,
+      "recall": 0.43041237113402064,
+      "f1-score": 0.4409681336842626,
+      "support": 388.0
+    }
+  }
+}
